@@ -1,0 +1,19 @@
+.AddPlayers {
+  width:90%;
+  display: grid;
+  grid-template-columns: 75% 22%;
+  grid-gap: 3%;
+}
+
+.player-content {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+  border-right: 1px solid lightblue;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+.player-count {
+  position: sticky;
+}
